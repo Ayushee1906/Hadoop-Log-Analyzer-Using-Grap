@@ -63,19 +63,7 @@ The program mimics the traditional Unix `grep` command but leverages Hadoop’s 
 ---
 
 ## Project Structure
-
-GrepHadoopProject/
-│
-├── src/
-│ └── com.hadoop.grep/
-│ ├── GrepMapper.java
-│ ├── GrepReducer.java
-│ └── GrepDriver.java
-│
-├── lib/
-│ └── Hadoop external JARs
-│
-└── GrepHadoop.jar
+<img width="236" height="343" alt="image" src="https://github.com/user-attachments/assets/960764a1-b199-427a-b02b-b445f0b5a96e" />
 
 
 
