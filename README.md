@@ -120,7 +120,7 @@ The program mimics the traditional Unix `grep` command but leverages Hadoop’s 
 
 `<hadoop fs -put constitunial /user/cloudera/input/>`
 
-*Running Grep MapReduce Job*
+**Running Grep MapReduce Job**
 `<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \
 /user/cloudera/input/constitunial /user/cloudera/output>`
 
