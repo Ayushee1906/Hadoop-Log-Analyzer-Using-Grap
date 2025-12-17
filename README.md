@@ -6,7 +6,7 @@ The application is developed in **Java** and executed on **Apache Hadoop** runni
 
 The program mimics the traditional Unix `grep` command but leverages Hadoop’s distributed processing capabilities to efficiently process large datasets.
 
-**Sample Input File Name:** `constitunial`
+**Sample Input File Name:** `constitution`
 
 ---
 
