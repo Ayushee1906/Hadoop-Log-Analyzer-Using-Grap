@@ -158,6 +158,7 @@ hadoop fs -get
 hadoop fs -rm -r
 
 ```markdown
+---
 ### Conclusion
 
 This project successfully demonstrates how to implement a **Grep program using Hadoop MapReduce**.
