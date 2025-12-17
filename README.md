@@ -118,46 +118,45 @@ The program mimics the traditional Unix `grep` command but leverages Hadoop’s 
 
 ### 4. Uploading Sample File to HDFS
 
-hadoop fs -put constitunial /user/cloudera/input/
+`<hadoop fs -put constitunial /user/cloudera/input/>`
 
-**### Running Grep MapReduce Job**
-hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \
-/user/cloudera/input/constitunial /user/cloudera/output
+*Running Grep MapReduce Job*
+`<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \
+/user/cloudera/input/constitunial /user/cloudera/output>`
 
 
 ### Output Directory Creation
 
-Hadoop automatically creates the output directory
+- Hadoop automatically creates the output directory
 
-Ensure the directory does not already exist
+- Ensure the directory does not already exist
 
 ###  Output File
 
-part-r-00000
+`<part-r-00000>`
 
-Reading Output
-Using hadoop fs -cat
-hadoop fs -cat /user/cloudera/output/part-r-00000
+- Reading Output
+`<Using hadoop fs -cat>`
+`<hadoop fs -cat /user/cloudera/output/part-r-00000>`
 
-Transferring Output from Cloudera to Local System
-Using hadoop fs -get
-hadoop fs -get /user/cloudera/output/part-r-00000 /home/cloudera/
+- Transferring Output from Cloudera to Local System
+- Using `<hadoop fs -get>`
+`<hadoop fs -get /user/cloudera/output/part-r-00000 /home/cloudera/>`
 
 ### Using WinSCP
 
-Navigate to the output file location in Cloudera
+- Navigate to the output file location in Cloudera
 
-Download part-r-00000 to the local machine
+- Download `<part-r-00000>` to the local machine
 
 ### HDFS Commands Used
-hadoop fs -ls
-hadoop fs -mkdir
-hadoop fs -put
-hadoop fs -cat
-hadoop fs -get
-hadoop fs -rm -r
+`<hadoop fs -ls>`
+`<hadoop fs -mkdir>`
+`<hadoop fs -put>`
+`<hadoop fs -cat>`
+`<hadoop fs -get>`
+`<hadoop fs -rm -r>`
 
-```markdown
 ---
 ### Conclusion
 
