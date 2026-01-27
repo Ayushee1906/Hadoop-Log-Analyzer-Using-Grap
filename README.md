@@ -125,7 +125,8 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 
 ### 4. Uploading Sample File to HDFS
 
-`<hadoop fs -put constitunial /user/cloudera/input/>`
+`<hadoop fs -mkdir -p /user/cloudera/input/>
+<hadoop fs -put constitution.txt /user/cloudera/input/>`
 
 **Running Grep MapReduce Job**
 `<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \
@@ -148,7 +149,7 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 
 - Transferring Output from Cloudera to Local System
 - Using `<hadoop fs -get>`
-`<hadoop fs -get /user/cloudera/output/part-r-00000 /home/cloudera/>`
+`<hadoop fs -get /home/cloudera/output/part-r-00000 /home/cloudera/>`
 
 ### Using WinSCP
 
@@ -157,12 +158,12 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 - Download `<part-r-00000>` to the local machine
 
 ### HDFS Commands Used
-`<hadoop fs -ls>`
-`<hadoop fs -mkdir>`
-`<hadoop fs -put>`
-`<hadoop fs -cat>`
-`<hadoop fs -get>`
-`<hadoop fs -rm -r>`
+`<hadoop fs -ls>`<br>
+`<hadoop fs -mkdir>`<br>
+`<hadoop fs -put>`<br>
+`<hadoop fs -cat>`<br>
+`<hadoop fs -get>`<br>
+`<hadoop fs -rm -r>`<br>
 
 ---
 ### Conclusion
