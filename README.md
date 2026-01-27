@@ -129,8 +129,8 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 <hadoop fs -put constitution.txt /user/cloudera/input/>`
 
 **Running Grep MapReduce Job**
-`<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \
-/user/cloudera/input/constitunial /user/cloudera/output>`
+`<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \>
+</user/cloudera/input/constitunial /user/cloudera/output>`
 
 
 ### Output Directory Creation
