@@ -126,12 +126,13 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 
 ### 4. Uploading Sample File to HDFS
 
-`<hadoop fs -mkdir -p /user/cloudera/input/>
-<hadoop fs -put constitution.txt /user/cloudera/input/>`
+`<hadoop fs -mkdir -p /user/cloudera/input/>`
+`<hadoop fs -put constitution.txt /user/cloudera/input/>`
 
 **Running Grep MapReduce Job**
-`<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \>
-</user/cloudera/input/constitunial /user/cloudera/output>`
+`<hadoop jar GrepHadoop.jar com.hadoop.grep.GrepDriver \
+/user/cloudera/input/constitution.txt /user/cloudera/output
+/>`
 
 
 ### Output Directory Creation
@@ -145,7 +146,8 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 `<part-r-00000>`
 
 - Reading Output
-`<Using hadoop fs -cat>`
+  
+`<Using hadoop fs -cat>`<br>
 `<hadoop fs -cat /user/cloudera/output/part-r-00000>`
 
 - Transferring Output from Cloudera to Local System
