@@ -70,7 +70,24 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 ---
 
 ## Project Structure
-<img width="236" height="343" alt="image" src="https://github.com/user-attachments/assets/960764a1-b199-427a-b02b-b445f0b5a96e" />
+
+- **Reducer file**
+  - `part-r-00000`
+
+- **Sample**
+  - `constitution.txt`
+
+- **grep**
+  - **bin**
+    - `grep`
+  - **src**
+    - `grep`
+  - `Grep.java`
+
+- **jar file**
+  - `grep.jar`
+
+- `README.md`
 
 
 
