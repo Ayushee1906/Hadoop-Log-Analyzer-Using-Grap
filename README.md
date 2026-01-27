@@ -71,23 +71,20 @@ Functionally, this project replicates the behavior of the traditional Linux grep
 
 ## Project Structure
 
-- **Reducer file**
-  - `part-r-00000`
-
-- **Sample**
-  - `constitution.txt`
-
-- **grep**
-  - **bin**
-    - `grep`
-  - **src**
-    - `grep`
-  - `Grep.java`
-
-- **jar file**
-  - `grep.jar`
-
-- `README.md`
+ Reducer file 
+   └──  part-r-00000 
+ Sample 
+   └──  constitution.txt 
+ grep 
+   ├──  bin 
+   │   └──  grep
+   ├──  src 
+   │   └── grep 
+   └──  Grep.java 
+ jar file 
+   └──  grep.jar 
+   
+README.md 
 
 
 
